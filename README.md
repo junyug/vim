@@ -1,5 +1,7 @@
 # vim
 My Vim Configuration
+## Dependence
+[https://github.com/Treri/dotfiles.git](https://github.com/Treri/dotfiles.git)
 ## Installation
 
 ```sh
