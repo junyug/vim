@@ -1,0 +1,35 @@
+"========= solarized theme ==============
+let g:solarized_termtrans=1
+let g:solarized_termcolors = 16
+colorscheme solarized
+set background=dark
+let g:airline_theme='solarized'
+
+"============== FuzzyFinder ===============
+map ,d :FufDir<CR>
+map ,, :FufCoverageFile<CR>
+map ,f :q!<CR>
+let g:fuf_coveragefile_exclude = '\v\~$|node_modules|bower_components|\.(o|exe|dll|DS_Store|project|orig|swp|png|jpg|gif|svg)$|(^|[/\\])\.(hg|git|bzr)($|[/\\])'
+let g:fuf_dir_exclude = '\vnode_modules|bower_components|(^|[/\\])\.(hg|git|bzr|ideas|idea|gsproxy|grunt)($|[/\\])'
+
+"========== editor ===============
+" set nonu
+set nocompatible
+set backspace=2
+set list
+set listchars=tab:>-,trail:-,extends:>,precedes:<
+set wrapscan
+set autoindent
+set smartindent
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set softtabstop=2
+set smarttab
+set fileencoding=utf-8
+set fileencodings=ucs-bom,utf-8,shift-jis,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+set termencoding=utf-8
+set fileformats=unix,dos
+syntax enable
+syntax on
+filetype plugin indent on
